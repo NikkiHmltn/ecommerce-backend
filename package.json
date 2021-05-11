@@ -2,7 +2,8 @@
   "name": "ecommerce-backend",
   "version": "1.0.0",
   "description": "This is a repo for the backend of ecommerce app.",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/NikkiHmltn/ecommerce-backend#readme",
   "dependencies": {
+    "dotenv": "^9.0.2",
     "express": "^4.17.1"
   }
 }
